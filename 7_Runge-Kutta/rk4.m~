@@ -1,0 +1,26 @@
+a = 1; b = 2;
+h = 0.25;
+f = @(t,y) y/t - (y/t)^2;
+%%%%%%%%%%%%%%%%%%%%%
+N = (b-a) / h;
+alfa = 1;
+w = alfa;
+t = a;
+K = zeros(4);
+result = zeros(N+1, 2);
+result(1, :) = [t,w];
+
+
+
+for i=1:N
+    K(1) = h * f(t,w);
+    K(2) = h * f(t + h/2, w + K(1)/2);
+    K(3) = h * f(t + h/2, w + K(2)/2);
+    K(4) = h * f(t + h, w + K(3) );
+    
+    w = w + ( K(1) + 2*K(2) + 2*K(3) +K(4) ) / 6;
+    t = a + i*h;
+
+    result(i+1, :) = [t,w];
+end
+result
