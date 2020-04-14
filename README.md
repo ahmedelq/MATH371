@@ -1,7 +1,7 @@
 # MATH371
 Solutions to KFUPM's MATH371 matlab assignments
 
-## Grades
+## MATLAB Grades
 | #             | Grade         |
 | ------------- |:-------------:|
 | 2             | 10/10         |
@@ -9,3 +9,16 @@ Solutions to KFUPM's MATH371 matlab assignments
 | 4             | 10/10         |
 | 5             | 10/10         |
 | 6             | 10/10         |
+
+## Homeworks Grades
+| #             | Grade         |
+| ------------- |:-------------:|
+| 2             | 9/10          |
+| 3             | 10/10         |
+| 4             | 10/10         |
+| 5             | 9/10          |
+| 6             | 9/10          |
+| 7             | 10/10         |
+| 8             | 10/10         |
+| 9             | 10/10         |
+| 10            | /10           |
